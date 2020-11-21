@@ -1,0 +1,20 @@
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: white;
+}
+
+.logo{
+	background: linear-gradient(to right, black, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	font-size: 6vmax;
+	font-weight: 500;
+}
+
+.chart_container {
+	margin-left: auto;
+	margin-right: auto;
+}
