@@ -45,7 +45,7 @@ var myChart = new Chart(ctx, {
       			fontFamily: 'Montserrat'      			
       		},
             afterFit: function(scale) {
-               scale.width = 130 //<-- set value as you wish 
+               scale.width = 100 //<-- set value as you wish 
             },
             scaleLabel: {
             	display: true,
