@@ -3,7 +3,7 @@ var ctx = document.getElementById("myChart").getContext("2d");
 var myChart = new Chart(ctx, {
 	type:'line',
 	data:{
-		labels: ['','November','','','',
+		labels: ['','November','23','24','25',
 		         '','','','','',
 		         '','',''],
 		datasets: [
