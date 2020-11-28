@@ -3,9 +3,9 @@ var ctx = document.getElementById("myChart").getContext("2d");
 var myChart = new Chart(ctx, {
 	type:'line',
 	data:{
-		labels: ['','23 / 11 / 20','23 / 11 / 20','23 / 11 / 20','23 / 11 / 20',
-		         '','','','','',
-		         '','',''],
+		labels: ['','Nov','17','18','19',
+		         '20','21','22','23','24',
+		         '25','26','27'],
 		datasets: [
 		{
 			data:[,,,,,
@@ -36,23 +36,37 @@ var myChart = new Chart(ctx, {
       	xAxes: [{
       		ticks: {
       			fontSize: 15,
-      			fontFamily: 'Montserrat'
-      		}
+      			fontStyle: 'bold',
+      			fontFamily: 'Montserrat',
+      			fontColor: '#A4A4A4' 
+      		},
+            afterFit: function(scale) {
+               scale.height = 100 //<-- set value as you wish 
+            },
+            scaleLabel: {
+            	display: true,
+            	labelString: 'date',
+            	fontSize: 30,
+            	fontStyle: 'bold',
+      			fontFamily: 'Montserrat',          	
+            },      		
       	}],
       	yAxes: [{
       		ticks: {
       			fontSize: 15,
-      			fontFamily: 'Montserrat'      			
+      			fontStyle: 'bold',
+      			fontFamily: 'Montserrat', 
+      			fontColor: '#A4A4A4'     			
       		},
             afterFit: function(scale) {
                scale.width = 100 //<-- set value as you wish 
             },
             scaleLabel: {
             	display: true,
-            	labelString: 'Equity %',
+            	labelString: 'equity percentage',
             	fontSize: 30,
-            	//fontStyle: 'bold',
-      			fontFamily: 'Montserrat'            	
+            	fontStyle: 'bold',
+      			fontFamily: 'Montserrat',          	
             },
       	}]
       }
