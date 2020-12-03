@@ -1,12 +1,10 @@
-
-
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: white;
 }
 
 .logo{
-	background: linear-gradient(to right, black, white);
+	background: linear-gradient(to right,black,white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-align: center;
@@ -15,6 +13,12 @@ body {
 }
 
 .chart_container {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 4vw;
+	margin-right: 4vw;
+}
+
+.chart_container_bar {
+	margin-top: 1.5vw;
+	margin-left: 4vw;
+	margin-right: 4vw;
 }
