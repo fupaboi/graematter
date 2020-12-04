@@ -116,6 +116,9 @@ var my_bar_chart = new Chart(ct_bar, {
       },
       scales: {
          xAxes: [{
+            gridLines: {
+               display:false
+            }, 		 
             ticks: {
                fontSize: 15,
                fontStyle: 'bold',
