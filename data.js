@@ -38,6 +38,9 @@ var myChart = new Chart(ctx, {
       legend: {
          display: false
       },
+      animation: {
+	  duration: 3500,    
+      },	    
       scales: {
       	xAxes: [{
       		ticks: {
@@ -118,6 +121,9 @@ var my_bar_chart = new Chart(ct_bar, {
       ],
    },
     options: {
+      animation: {
+	  duration: 3500,    
+      },	    
       legend: {
          display: false
       },
