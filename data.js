@@ -8,7 +8,7 @@ var myChart = new Chart(ctx, {
 		         '25','26','27','28','29',
                          '30','Dec','2','3','4',
 			 '5','6','7','8','9',
-			 '10','11','12'],
+			 '10','11','12','13'],
 		datasets: [
 		{
 			data:[,,,,,
@@ -16,7 +16,7 @@ var myChart = new Chart(ctx, {
 			      ,,,,,
                               ,,,,,
 			      ,,,,,
-			      ,,],
+			      ,,,],
 			borderWidth:1,
 			borderColor:'rgba(0,255,0,0.5)',
 			backgroundColor:'rgba(0,255,0,0.1)',
@@ -28,7 +28,7 @@ var myChart = new Chart(ctx, {
 			      -22.8,-22.7,-26.4,-26.2,-26.3,
                               -26.4,-25.4,-27.2,-45.4,-42.1,
 			      -42.1,-42.1,-44,-44,-42,
-			      -41,-30,-30],
+			      -41,-30,-30,-30],
 			borderWidth:1,
 			borderColor:'rgba(255,0,0,0.5)',
 			backgroundColor:'rgba(255,0,0,0.1)',
