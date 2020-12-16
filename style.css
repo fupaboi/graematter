@@ -22,7 +22,7 @@ body {
 	border-color: white;
 	border-radius: 2vw;
 	padding: 2vw;
-	box-shadow: 0.1vw 0.1vw 0.25vw #888888;
+	box-shadow: 0.1vw 0.1vw 0.5vw #888888;
 }	
 
 .chart_container_bar{
@@ -37,29 +37,29 @@ body {
 	border-color: white;
 	border-radius: 2vw;
 	padding: 2vw;
-	box-shadow: 0.1vw 0.1vw 0.25vw #888888;
+	box-shadow: 0.1vw 0.1vw 0.5vw #888888;
 }
 
 .chart_container:hover {
 	transform: scale(1.02, 1.02);
-	box-shadow: 0.1vw 0.1vw 1vw #888888;
+	box-shadow: 0.1vw 0.1vw 2vw #888888;
 	transition: all 0.2s ease-in;
 }
 
 .chart_container:not(:hover) {
 	transform: scale(1, 1);
-	box-shadow: 0.1vw 0.1vw 0.25vw #888888;
+	box-shadow: 0.1vw 0.1vw 0.5vw #888888;
 	transition: all 0.2s ease-in;
 }
 
 .chart_container_bar:hover {
 	transform: scale(1.02, 1.02);
-	box-shadow: 0.1vw 0.1vw 1vw #888888;
+	box-shadow: 0.1vw 0.1vw 2vw #888888;
 	transition: all 0.2s ease-in;
 }
 
 .chart_container_bar:not(:hover) {
 	transform: scale(1, 1);
-	box-shadow: 0.1vw 0.1vw 0.25vw #888888;
+	box-shadow: 0.1vw 0.1vw 0.5vw #888888;
 	transition: all 0.2s ease-in;
 }
