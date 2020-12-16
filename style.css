@@ -42,7 +42,7 @@ body {
 
 .chart_container:hover {
 	transform: scale(1.02, 1.02);
-	box-shadow: 0.1vw 0.1vw 2vw #888888;
+	box-shadow: 0.1vw 0.1vw 3vw #888888;
 	transition: all 0.2s ease-in;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .chart_container_bar:hover {
 	transform: scale(1.02, 1.02);
-	box-shadow: 0.1vw 0.1vw 2vw #888888;
+	box-shadow: 0.1vw 0.1vw 3vw #888888;
 	transition: all 0.2s ease-in;
 }
 
