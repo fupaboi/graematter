@@ -54,7 +54,7 @@ var myChart = new Chart(ctx, {
         titleFontSize:15,
         bodyFontSize:15,
         titleFontStyle:'bold',
-        titleFontColor:'rgba(0,0,0,0.5)',
+        titleFontColor:'rgba(0,0,0,0.3)',
         bodyFontColor:'rgba(255,255,255,1)',
         backgroundColor:'rgba(0,0,0,0.2)'
       },
@@ -135,7 +135,7 @@ var my_bar_chart = new Chart(ct_bar, {
         titleFontSize:15,
         bodyFontSize:15,
         titleFontStyle:'bold',
-        titleFontColor:'rgba(0,0,0,0.5)',
+        titleFontColor:'rgba(0,0,0,0.3)',
         bodyFontColor:'rgba(255,255,255,1)',
         backgroundColor:'rgba(0,0,0,0.2)'
       },
