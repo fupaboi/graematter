@@ -13,7 +13,7 @@ body {
 }
 
 .chart_container{
-	background: none;
+	background: white;
 	width: 85vw;
 	height: 42vw;
 	margin-left: 4vw;
