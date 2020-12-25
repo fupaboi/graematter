@@ -10,7 +10,8 @@ var myChart = new Chart(ctx, {
                'Dec 5','Dec 6','Dec 7','Dec 8','Dec 9',
                'Dec 10','Dec 11','Dec 12','Dec 13','Dec 14',
                'Dec 15','Dec 16','Dec 17','Dec 18','Dec 19',
-               'Dec 20','Dec 21','Dec 21','Dec 22'],
+               'Dec 20','Dec 21','Dec 21','Dec 22','Dec 23',
+               'Dec 24'],
       datasets: [
       {
          data:[,,,,,
@@ -20,7 +21,8 @@ var myChart = new Chart(ctx, {
                ,,,,,
                ,,,,,
                ,,,,,
-               ,0,2,6],
+               ,0,2,6,7,
+               7],
          
          borderColor:'rgba(0,230,0,0.3)',
          backgroundColor:'#FFFFFF',
@@ -36,7 +38,7 @@ var myChart = new Chart(ctx, {
                -42.1,-42.1,-44,-44,-42,
                -41,-30,-30,-30,-31,
                -33,-35,-29,-28,-28,
-               -28,0,,],
+               -28,0,,,,],
 
          borderColor:'rgba(230,0,0,0.3)',
          backgroundColor:'#FFFFFF',
@@ -110,7 +112,8 @@ var my_bar_chart = new Chart(ct_bar, {
                '31','32','33','34','35','36','37','38','39','40',
                '41','42','43','44','45','46','47','48','49','50',
                '51','52','53','54','55','56','57','58','59','60',
-               '61','62','63','64','65','66'],
+               '61','62','63','64','65','66','67','68','69','70',
+               '71'],
       datasets: [
       {
          data:[-2.61,-1.44,1.78,-1.08,-0.17,-1.30,-4.25,6.9,-1.35,-2.02,
@@ -119,7 +122,8 @@ var my_bar_chart = new Chart(ct_bar, {
                -0.49,4.43,-3.95,-2.2,-1.5,-2.6,-3.48,-2.95,-3.98,-3.6,
                1.69,1.73,-0.3,-1.1,3.27,-3.65,2.6,-0.1,2.62,-3.87,
                3.07,-0.55,-2.55,14.5,-2.39,-1.72,0.52,-3.03,1.12,5.68,
-               0.85,-4,0,4.67,30.16,4.1],
+               0.85,-4,0,4.67,30.16,4.1,0.73,-2.53,3.09,1.89,
+              -2.61],
          borderWidth:0,
          backgroundColor:[r_back,r_back,g_back,r_back,r_back,r_back,r_back,g_back,r_back,r_back,
                           g_back,r_back,r_back,g_back,r_back,r_back,g_back,r_back,g_back,r_back,
@@ -127,7 +131,8 @@ var my_bar_chart = new Chart(ct_bar, {
                           r_back,g_back,r_back,r_back,r_back,r_back,r_back,r_back,r_back,r_back,
                           g_back,g_back,r_back,r_back,g_back,r_back,g_back,r_back,g_back,r_back,
                           g_back,r_back,r_back,g_back,r_back,r_back,g_back,r_back,g_back,g_back,
-                          g_back,r_back,g_back,g_back,g_back,g_back],
+                          g_back,r_back,g_back,g_back,g_back,g_back,g_back,r_back,g_back,g_back,
+                          r_back],
       },
       ],
    },
