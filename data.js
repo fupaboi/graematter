@@ -10,26 +10,11 @@ var myChart = new Chart(ctx, {
                'Dec 5','Dec 6','Dec 7','Dec 8','Dec 9',
                'Dec 10','Dec 11','Dec 12','Dec 13','Dec 14',
                'Dec 15','Dec 16','Dec 17','Dec 18','Dec 19',
-               'Dec 20','Dec 21','Dec 21','Dec 22','Dec 23',
-               'Dec 24'],
+               'Dec 20','Dec 21','Dec 22','Dec 23','Dec 24',
+               'Dec 25','Dec 26','Dec 27','Dec 28','Dec 29',
+               'Dec 30'],
+      
       datasets: [
-      {
-         data:[,,,,,
-               ,,,,,
-               ,,,,,
-               ,,,,,
-               ,,,,,
-               ,,,,,
-               ,,,,,
-               ,0,2,6,7,
-               7],
-         
-         borderColor:'rgba(0,230,0,0.3)',
-         backgroundColor:'#FFFFFF',
-         pointRadius:0,
-         pointBackgroundColor:'rgba(0,230,0,0.3)',
-
-      },
       {
          data:[-24.88,-24.88,-26.21,-25,-16.2,
                -15.75,-15.76,-15.79,-22.3,-21.3,
@@ -38,18 +23,20 @@ var myChart = new Chart(ctx, {
                -42.1,-42.1,-44,-44,-42,
                -41,-30,-30,-30,-31,
                -33,-35,-29,-28,-28,
-               -28,0,,,,],
+               -28,2,6,7,7,
+                7,7,7,2,1,
+                1],
 
-         borderColor:'rgba(230,0,0,0.3)',
-         backgroundColor:'#FFFFFF',
+         borderColor:'rgba(70,255,237,0.3)',
+         backgroundColor:'#232323',
          pointRadius:0,
-         pointBackgroundColor:'rgba(230,0,0,0.3)',
 
       },
        ],
      },
 
     options: {
+
       tooltips:{
         yAlign:'top',
         displayColors:false,
@@ -61,37 +48,38 @@ var myChart = new Chart(ctx, {
         titleFontSize:15,
         bodyFontSize:15,
         titleFontStyle:'bold',
-        titleFontColor:'rgba(0,0,0,0.3)',
-        bodyFontColor:'rgba(255,255,255,1)',
-        backgroundColor:'rgba(0,0,0,0.2)'
+        titleFontColor:'rgba(70,255,237,0.8)',
+        bodyFontColor:'rgba(255,255,255,0.8)',
+        backgroundColor:'rgba(0,0,0,0.5)'
       },
+
       legend: {
          display: false
       },
+
       animation: {
       duration: 3500,    
-      },     
+      }, 
+
       scales: {
+
          xAxes: [{
             gridLines: {
                 drawBorder: false,
                 display: false,
             },
             ticks: {
-               fontSize: 12,
-               fontStyle: 'bold',
-               fontFamily: 'Montserrat',
-               fontColor: 'white'
+               fontSize: 0,
             },        
          }],
+
          yAxes: [{
             gridLines: {
                 drawBorder: false,
                 display: false,
             },
             ticks: {
-               fontSize: 1,
-               fontColor: 'white'             
+               fontSize: 0,          
             },
          }]
       },
@@ -99,9 +87,6 @@ var myChart = new Chart(ctx, {
    });
 
 var ct_bar = document.getElementById("my_bar_chart").getContext("2d");
-
-var g_back= 'rgba(0,230,0,0.3)'
-var r_back= 'rgba(230,0,0,0.3)'
 
 var my_bar_chart = new Chart(ct_bar, {
    type:'bar',
@@ -125,20 +110,13 @@ var my_bar_chart = new Chart(ct_bar, {
                0.85,-4,0,4.67,30.16,4.1,0.73,-2.53,3.09,1.89,
               -2.61],
          borderWidth:0,
-         backgroundColor:[r_back,r_back,g_back,r_back,r_back,r_back,r_back,g_back,r_back,r_back,
-                          g_back,r_back,r_back,g_back,r_back,r_back,g_back,r_back,g_back,r_back,
-                          r_back,r_back,g_back,r_back,r_back,g_back,g_back,r_back,r_back,g_back,
-                          r_back,g_back,r_back,r_back,r_back,r_back,r_back,r_back,r_back,r_back,
-                          g_back,g_back,r_back,r_back,g_back,r_back,g_back,r_back,g_back,r_back,
-                          g_back,r_back,r_back,g_back,r_back,r_back,g_back,r_back,g_back,g_back,
-                          g_back,r_back,g_back,g_back,g_back,g_back,g_back,r_back,g_back,g_back,
-                          r_back],
+         backgroundColor:'rgba(70,255,237,0.3)',
       },
       ],
    },
     options: {
       tooltips:{
-        yAlign:'top',
+        yAlign:'bottom',
         displayColors:false,
         mode:'x-axis',
         titleAlign:'center',
@@ -148,9 +126,9 @@ var my_bar_chart = new Chart(ct_bar, {
         titleFontSize:15,
         bodyFontSize:15,
         titleFontStyle:'bold',
-        titleFontColor:'rgba(0,0,0,0.3)',
-        bodyFontColor:'rgba(255,255,255,1)',
-        backgroundColor:'rgba(0,0,0,0.2)'
+        titleFontColor:'rgba(70,255,237,0.8)',
+        bodyFontColor:'rgba(255,255,255,0.8)',
+        backgroundColor:'rgba(0,0,0,0.5)'
       },
      animation: {
      duration: 3500,    
@@ -167,20 +145,17 @@ var my_bar_chart = new Chart(ct_bar, {
 
             ticks: {
                fontSize: 0,
-               fontStyle: 'bold',
-               fontFamily: 'Montserrat',
-               fontColor: 'black' 
             },
          }],
          
          yAxes: [{
             gridLines: {
                 drawBorder: false,
+                display: false,
             },
 
             ticks: {
-               fontSize: 1, 
-               fontColor: 'white'            
+               fontSize: 0,          
             },
 
          }],
