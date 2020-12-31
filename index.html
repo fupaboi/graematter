@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html Lang="en">
     <head>
-    	<meta charset="UTF-8">
-    	<!meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    	<!meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    	<link rel="preconnect" href="https://fonts.gstatic.com" />
-    	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet" />
-    	<link rel="stylesheet" href="style.css" />
-    	<title>graematter</title>
+        <meta charset="UTF-8">
+        <!meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <title>graematter</title>
     </head>
     <body>
-    	<header>
-    		<h1 class="logo">graematter</h1>
-    	</header>
+        <header>
+            <h1 class="logo">graematter.</h1>
+        </header>
+        
+        <div class="top_desc">trading system details</div>
+        <div class="desc">intraday option buying nifty weeklies</div>
 
-    	<div class="chart_container">
-    		<canvas id="myChart"></canvas>
-    		<script src="chart.js"></script>
-    		<script src="data.js"></script>
-    	</div>
+        <div class="chart_container">
+            <div class="title">equity ( % )</div>
+            <canvas id="myChart"></canvas>
+            <script src="chart.js"></script>
+            <script src="data.js"></script>
+        </div>
 
         <div class="chart_container_bar">
+            <div class="title">trade result ( % )</div>
             <canvas id="my_bar_chart"></canvas>
             <script src="chart.js"></script>
             <script src="data.js"></script>
