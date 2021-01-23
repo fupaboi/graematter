@@ -15,7 +15,8 @@ var myChart = new Chart(ctx, {
                'Dec 30','Dec 31','Jan 1','Jan 2','Jan 3',
                'Jan 4','Jan 5','Jan 6','Jan 7','Jan 8',
                'Jan 9','Jan 10','Jan 11','Jan 12','Jan 13',
-               'Jan 14','Jan 15'],
+               'Jan 14','Jan 15','Jan 16','Jan 17','Jan 18',
+               'Jan 19','Jan 20','Jan 21','Jan 22'],
       
       datasets: [
       {
@@ -31,7 +32,8 @@ var myChart = new Chart(ctx, {
                -1,-10,-17,-17,-17,
                -16,-19,-25,-29,-19,
                -20,-20,-20,-16,-17,
-               -22,-22],
+               -22,-22,-22,-22,-27,
+               -22,-23,-12,-12],
 
          borderColor:'rgba(70,255,237,0.3)',
          backgroundColor:'#232323',
