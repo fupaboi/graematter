@@ -1,103 +1,25 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: #232323;
+	background: #000000;
 }
 
 .logo{
-	left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
-	background: none;
-	color:#D1D1D1;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 7vmax;
-	font-size: 5vmax;
-	font-weight: 500;
-	width:35vmax;
-	height:8vmax;
-	padding: 0.5vmax;
-	border-radius: 5vmax;
-	box-shadow: 0.15vw 0.5vw 1vw #000000;
-}
-
-.top_desc{
-    background: none;
-    color: #D1D1D1;
-	text-align: center;
-	font-size: 5vw;
-	font-weight: 500;
-}
-
-
-.desc{
-    background: none;
-    color: #4C4C4C;
-	text-align: center;
-	font-size: 3vw;
-	font-weight: 500;
-	margin-bottom: 4vw;
-}
-
-.title{
-	position:absolute;
-	left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
-	color:#D1D1D1;
-	opacity:0.6;
-	background: none;
-	text-align: center;
-	font-size: 3vw;
+    font-size: 5vw;
+    text-align: center;
+	color:#ffffff;
 	font-weight: 500;
 }
 
 .chart_container{
-	background: #232323;
-	width: 85vw;
-	height: 42vw;
-	margin-left: 4vw;
-	margin-right: 4vw;
-	border-color: none;
-	border-radius: 7vw;
-	padding: 2vw;
-	box-shadow: 0.15vw 0.5vw 0.25vw #000000;
-	transform: scale(0.98, 0.98);	
-}	
+	width: 60vw;
+	height: 25vw;
+	margin: auto;
+}
 
 .chart_container_bar{
-	background: #232323;
-	width: 85vw;
-	height: 42vw;
-	margin-top: 3vw;
-	margin-left: 4vw;
-	margin-right: 4vw;
-	margin-bottom: 1.5vw;
-	border-color: none;
-	border-radius: 7vw;
-	padding: 2vw;
-	box-shadow: 0.15vw 0.5vw 0.25vw #000000;
-	transform: scale(0.98, 0.98);	
-}
-
-.chart_container:hover{
-	transform: scale(1, 1);
-	box-shadow: 1.5vw 1.5vw 2vw #000000;
-	transition: all 0.3s ease-in-out;
-}
-
-.chart_container_bar:hover {
-	transform: scale(1, 1);
-	box-shadow: 1.5vw 1.5vw 2vw #000000;
-	transition: all 0.3s ease-in-out;
-}
-
-.chart_container:not(:hover){
-	transition: all 0.3s ease-in-out;
-}
-
-.chart_container_bar:not(:hover) {
-	transition: all 0.3s ease-in-out;
+	width: 60vw;
+	height: 25vw;
+	margin: auto;
+	margin-top: 10vw;
+	margin-bottom: 10vw;
 }
