@@ -97,7 +97,7 @@ var myChart_bar = new Chart(ctx_bar, {
     labels:[1,2,3,4,5,6,7,8,9,10,9,8,7,6,5,4,3,2,1],
     datasets:[
     {
-      data:[1,2,-3,4,5,6,7,8,9,10,9,8,7,6,5,4,3,2,1],
+      data:[1,2,3,4,5,6,7,8,9,10,9,8,7,6,5,4,3,2,1],
       label:"trade wise pnl %",
       backgroundColor:'rgba(0,255,255,1)',
     },
