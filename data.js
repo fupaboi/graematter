@@ -4,7 +4,7 @@ var myChart = new Chart(ctx, {
    type:'line',
    data:{
 
-      labels: ['Week 0','Week 1'],
+      labels: ['Week 0','Week 1','Week 2'],
       
       datasets: [
       {  
@@ -49,7 +49,9 @@ var myChart_bar = new Chart(ctx_bar, {
    type:'bar',
    data: {
     labels:[1,2,3,4,5,6,7,8,9,10,
-            11,12,13,14,15,16,17,18,19],
+            11,12,13,14,15,16,17,18,19,20,
+            21,22,23,24,25,26,27,28,29,30,
+            31,32,33,34]
     datasets:[
     {
       data:[-0.91,13.98,5.63,-1.76,-1.53,-1.07,0.34,0.06,-0.1,-0.75,
